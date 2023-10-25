@@ -1,4 +1,4 @@
-# S1-T16-Dual-Dice
+![flowchart](https://github.com/rahul-mondal01/S1-T16-Dual-Dice/assets/148984556/5ff5ff80-c667-4cbf-906b-de693b2e40a7)# S1-T16-Dual-Dice
 This project contains everything related to our project on the Dual Dice game
 
 <b>Team Member</b> <br><br>
@@ -134,3 +134,18 @@ granted only three chances to play the game, adding an element of
 challenge and strategy.</td>
   </tr>
 </table> <br><br>
+<h1 align="center">FLOW OF EXECUTION</h1> <br><br>
+<b>Flowchart</b> <br>
+![flowchart](https://github.com/rahul-mondal01/S1-T16-Dual-Dice/assets/148984556/b532af01-c92f-445d-a0de-c9420f87054a) <br><br>
+<b>Truth Table</b> <br>
+![truth_table](https://github.com/rahul-mondal01/S1-T16-Dual-Dice/assets/148984556/22770284-179c-48d7-a8dc-ba25d602c231) <br><br>
+<h1 align="center">Results</h1> <br><br>
+<b>GTKWAVE</b><br>
+![gtkwave](https://github.com/rahul-mondal01/S1-T16-Dual-Dice/assets/148984556/753b9753-e5fe-4550-bb07-1e8835bb68c9) <br><br>
+<b>VERILOG OUTPUT</b> <br>
+![output](https://github.com/rahul-mondal01/S1-T16-Dual-Dice/assets/148984556/89536c99-2e7f-46c2-9ea1-1149fd8c1b0c) <br><br>
+<h1 align="center">THANKS!!</h1>
+
+
+
+
