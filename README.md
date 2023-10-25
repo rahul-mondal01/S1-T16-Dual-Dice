@@ -1,4 +1,4 @@
-#S1-T16-Dual-Dice
+<h1 align="center">S1-T16-Dual-Dice</h1><br>
 This project contains everything related to our project on the Dual Dice game
 
 <b>Team Member</b> <br><br>
