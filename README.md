@@ -1,4 +1,4 @@
-![flowchart](https://github.com/rahul-mondal01/S1-T16-Dual-Dice/assets/148984556/5ff5ff80-c667-4cbf-906b-de693b2e40a7)# S1-T16-Dual-Dice
+#S1-T16-Dual-Dice
 This project contains everything related to our project on the Dual Dice game
 
 <b>Team Member</b> <br><br>
