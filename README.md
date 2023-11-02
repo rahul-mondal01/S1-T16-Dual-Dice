@@ -147,17 +147,137 @@ challenge and strategy.</td>
 <h2 align="center">Flowchart</h2><br>
 ![flowchart](https://github.com/rahul-mondal01/S1-T16-Dual-Dice/assets/148984556/040435ab-7d32-4827-9dca-c4500f64018f)
 </details><br><br>
-<h1 align="center">FLOW OF EXECUTION</h1> <br><br>
-<b>Flowchart</b> <br>
-![flowchart](https://github.com/rahul-mondal01/S1-T16-Dual-Dice/assets/148984556/b532af01-c92f-445d-a0de-c9420f87054a) <br><br>
-<b>Truth Table</b> <br>
-![truth_table](https://github.com/rahul-mondal01/S1-T16-Dual-Dice/assets/148984556/22770284-179c-48d7-a8dc-ba25d602c231) <br><br>
-<h1 align="center">Results</h1> <br><br>
-<b>GTKWAVE</b><br>
-![gtkwave](https://github.com/rahul-mondal01/S1-T16-Dual-Dice/assets/148984556/753b9753-e5fe-4550-bb07-1e8835bb68c9) <br><br>
-<b>VERILOG OUTPUT</b> <br>
-![output](https://github.com/rahul-mondal01/S1-T16-Dual-Dice/assets/148984556/89536c99-2e7f-46c2-9ea1-1149fd8c1b0c) <br><br>
-<h1 align="center">THANKS!!</h1>
+<h2><b>Logisim Circuit Diagram</b></h2>
+<details>
+  ![logisim_output](https://github.com/rahul-mondal01/S1-T16-Dual-Dice/assets/148984556/88cfd6d4-1ab2-4370-bb42-01ec979ac8fe)
+</details>
+<br><br>
+<h2><b>Verilog Code</b></h2>
+<details>
+
+  <b>Module file</b>
+  
+  ```
+  
+  module counter(input[0:2] a,input[0:2] b,input[0:2] c,input[0:2] d,output[0:2] x,output[0:3] sum1,output[0:3] sum2);
+    wire[0:3] w1; //for first sum
+    wire[0:3] w2; //for second sum
+    
+    //a+b
+    wire s1,s2,s3,c1,c2,c3;
+    assign s1=a[2]^b[2];
+    assign c1=a[2]&b[2];
+    assign s2=c1^a[1]^b[1];
+    assign c2=(c1&(a[1]^b[1]))|(a[1]&b[1]);
+    assign s3=c2^a[0]^b[0];
+    assign c3=(c2&(a[0]^b[0]))|(a[0]&b[0]);
+    assign w1[0]=c3;
+    assign w1[1]=s3;
+    assign w1[2]=s2;
+    assign w1[3]=s1;
+
+    //c+d
+    wire k1,k2,k3,p1,p2,p3;
+    assign k1=c[2]^d[2];
+    assign p1=c[2]&d[2];
+    assign k2=p1^c[1]^d[1];
+    assign p2=(p1&(c[1]^d[1]))|(c[1]&d[1]);
+    assign k3=p2^c[0]^d[0];
+    assign p3=(p2&(c[0]^d[0]))|(c[0]&d[0]);
+    assign w2[0]=p3;
+    assign w2[1]=k3;
+    assign w2[2]=k2;
+    assign w2[3]=k1;
+
+    //COMPARATOR
+    wire m0,m1,m2,m3;
+    assign m0=~(w1[0]^w2[0]);
+    assign m1=~(w1[1]^w2[1]);
+    assign m2=~(w1[2]^w2[2]);
+    assign m3=~(w1[3]^w2[3]);
+    wire temp1,temp2,temp3,temp4;
+    assign temp1=w1[0]&(~w2[0]);
+    assign temp2=(m0)&(w1[1]&(~w2[1]));
+    assign temp3=((m0)&(m1))&(w1[2]&(~w2[2]));
+    assign temp4=((m0)&(m1)&(m2))&(w1[3]&(~w2[3]));
+    
+    //assigning output
+    assign x[0]=(temp1|temp2)|(temp3|temp4); //a>b
+    assign x[1]=((m0)&(m1))&((m2)&(m3));  //a=b
+    assign x[2]=(~w1[0]&(w2[0]))|(m0&(~w1[1]&(w2[1])))|(m0&m1&(~w1[2]&(w2[2])))|(m0&m1&m2&(~w1[3]&(w2[3]))); //a<b
+
+    //assigning the two sums
+    assign sum1=w1; 
+    assign sum2=w2;
+endmodule
+
+  ```
+
+  <b>Testbench</b>
+
+  ```
+
+  `include "dual_dice.v" 
+
+module dual_dice_tb;
+
+//all variables used in this code
+
+reg[0:2] led_chaser_user; //user led
+
+reg[0:2] led_chaser_random; //random led
+
+reg[0:2] random_number_1; //random number 1
+
+reg[0:2] random_number_2; //random number 2
+
+wire[0:2] x; //showing outputs: x[0]: a>b    x[1]: a=b    x[2]: a<b
+wire[0:3] a; //first sum: led_chaser_user+led_chaser_random
+wire[0:3] b; //second sum: random_number_1+random_number_2
+
+//instantiation
+
+counter uut( 
+    .a(led_chaser_user),
+    .b(led_chaser_random),
+    .c(random_number_1),
+    .d(random_number_2),
+    .x(x),
+    .sum1(a),
+    .sum2(b)
+);
+
+//starting the code
+initial begin
+
+    //making the vcd(gtkwave) file
+    $dumpfile("dual_dice.vcd");
+    $dumpvars(0,dual_dice_tb);
+    
+    //inputting numbers
+    led_chaser_user=3'b110;
+    led_chaser_random=3'b101;
+    random_number_1=3'b101;
+    random_number_2=3'b101;
+    
+
+    #100; 
+
+    //displaying outputs
+    $display("\n");
+    $display("LED_CHASER_USER |  LED_CHASER_RANDOM  |  RANDOM_NUMBER_1  |   RANDOM_NUMBER_2  |   A   |   B   |  A>B  |  A==B  |  A<B\n");
+    $display("     %4d       |          %4d       |        %4d       |        %4d        | %4d  | %4d  |   %d   |    %d   |   %d\n",led_chaser_user,led_chaser_random,random_number_1,random_number_2,a,b,x[0],x[1],x[2]); 
+    
+    
+    
+end
+endmodule
+
+  ```
+  
+</details>
+<br><br>
+
 
 
 
