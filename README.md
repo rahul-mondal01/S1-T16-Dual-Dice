@@ -65,6 +65,8 @@ creating an interactive and challenging experience for enthusiasts and casual us
 this essay, we will explore the intricate details of this exciting project, its components,
 functionality, and the underlying concepts that make it both entertaining and educational. 
 </details><br><br>
+<h2><b>Abstract</b></h2>
+<details>
 <h1 align="center">FUNCTIONAL TABLE</h1> <br> <br>
 <table>
   <tr>
@@ -140,7 +142,8 @@ incremented score for the user. It is important to note that each user is
 granted only three chances to play the game, adding an element of
 challenge and strategy.</td>
   </tr>
-</table> <br><br>
+</table> 
+</details><br><br>
 <h1 align="center">FLOW OF EXECUTION</h1> <br><br>
 <b>Flowchart</b> <br>
 ![flowchart](https://github.com/rahul-mondal01/S1-T16-Dual-Dice/assets/148984556/b532af01-c92f-445d-a0de-c9420f87054a) <br><br>
