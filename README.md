@@ -1,6 +1,8 @@
 <h1 align="center">S1-T16-Dual-Dice</h1><br>
 This project contains everything related to our project on the Dual Dice game
 <details>
+<br>3rd Sem B.TECH CSE <br>
+Section: 1 <br> <br>
 <b>Team Member</b> <br><br>
 Rahul mondal<br>
 221cs142 <br>
