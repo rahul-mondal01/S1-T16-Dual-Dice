@@ -1,6 +1,6 @@
 <h1 align="center">S1-T16-Dual-Dice</h1><br>
 This project contains everything related to our project on the Dual Dice game
-
+<details>
 <b>Team Member</b> <br><br>
 Rahul mondal<br>
 221cs142 <br>
@@ -11,6 +11,7 @@ sandeepkumar.221cs149@nitk.edu.in <br><br>
 Vivek kumar<br>
 221cs166<br>
 vivekkumar.221cs166@nitk.edu.in<br><br>
+</details>
 <b>IDEA</b><br><br>
 The idea of this project is to provide the users with a time engaging, entertaining, and
 enjoyable experience and at the same time, apply a multitude of concepts and ICs
