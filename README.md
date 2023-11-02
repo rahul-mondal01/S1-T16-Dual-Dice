@@ -143,6 +143,9 @@ granted only three chances to play the game, adding an element of
 challenge and strategy.</td>
   </tr>
 </table> 
+<br><br>
+<h2 align="center">Flowchart</h2><br>
+![flowchart](https://github.com/rahul-mondal01/S1-T16-Dual-Dice/assets/148984556/040435ab-7d32-4827-9dca-c4500f64018f)
 </details><br><br>
 <h1 align="center">FLOW OF EXECUTION</h1> <br><br>
 <b>Flowchart</b> <br>
