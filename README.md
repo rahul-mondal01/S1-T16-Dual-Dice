@@ -1,6 +1,6 @@
 <h1 align="center">S1-T16-Dual-Dice</h1><br>
 This project contains everything related to our project on the Dual Dice game<br><br>
-<h2><b>Team Details</b></h2><br>
+<h2><b>Team Details</b></h2>
 <details>
 <br>3rd Sem B.TECH CSE <br>
 Section: 1 <br> <br>
@@ -14,7 +14,9 @@ sandeepkumar.221cs149@nitk.edu.in <br><br>
 Vivek kumar<br>
 221cs166<br>
 vivekkumar.221cs166@nitk.edu.in<br><br>
-</details>
+</details> <br><br>
+<h2><b>Abstract</b></h2><br>
+<details>
 <b>IDEA</b><br><br>
 The idea of this project is to provide the users with a time engaging, entertaining, and
 enjoyable experience and at the same time, apply a multitude of concepts and ICs
@@ -61,7 +63,8 @@ innovation, and user engagement have always held a special allure. One such proj
 LED Chaser Dice Game, a unique fusion of LEDs, simulated dice rolls, and digital logic,
 creating an interactive and challenging experience for enthusiasts and casual users alike. In
 this essay, we will explore the intricate details of this exciting project, its components,
-functionality, and the underlying concepts that make it both entertaining and educational. <br><br>
+functionality, and the underlying concepts that make it both entertaining and educational. 
+</details><br><br>
 <h1 align="center">FUNCTIONAL TABLE</h1> <br> <br>
 <table>
   <tr>
