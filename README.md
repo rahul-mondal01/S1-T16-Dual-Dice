@@ -1,5 +1,6 @@
 <h1 align="center">S1-T16-Dual-Dice</h1><br>
-This project contains everything related to our project on the Dual Dice game
+This project contains everything related to our project on the Dual Dice game<br><br>
+<h2><b>Team Details</b></h2><br>
 <details>
 <br>3rd Sem B.TECH CSE <br>
 Section: 1 <br> <br>
