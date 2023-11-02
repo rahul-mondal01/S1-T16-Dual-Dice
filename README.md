@@ -15,7 +15,7 @@ Vivek kumar<br>
 221cs166<br>
 vivekkumar.221cs166@nitk.edu.in<br><br>
 </details> <br><br>
-<h2><b>Abstract</b></h2><br>
+<h2><b>Abstract</b></h2>
 <details>
 <b>IDEA</b><br><br>
 The idea of this project is to provide the users with a time engaging, entertaining, and
