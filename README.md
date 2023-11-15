@@ -14,7 +14,7 @@ sandeepkumar.221cs149@nitk.edu.in <br><br>
 Vivek kumar<br>
 221cs166<br>
 vivekkumar.221cs166@nitk.edu.in<br><br>
-</details> <br><br>
+</details> 
 <h2><b>Abstract</b></h2>
 <details>
 <b>IDEA</b><br><br>
@@ -146,12 +146,11 @@ challenge and strategy.</td>
 <br><br>
 <h2 align="center">Flowchart</h2><br>
 ![flowchart](https://github.com/rahul-mondal01/S1-T16-Dual-Dice/assets/148984556/040435ab-7d32-4827-9dca-c4500f64018f)
-</details><br>
+</details>
 <h2><b>Logisim Circuit Diagram</b></h2>
 <details>
   ![logisim_output](https://github.com/rahul-mondal01/S1-T16-Dual-Dice/assets/148984556/88cfd6d4-1ab2-4370-bb42-01ec979ac8fe)
 </details>
-<br><br>
 <h2><b>Verilog Code</b></h2>
 <details>
 
@@ -276,7 +275,7 @@ endmodule
   ```
   
 </details>
-<br>
+
 
 
 
