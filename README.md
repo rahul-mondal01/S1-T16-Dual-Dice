@@ -64,7 +64,7 @@ LED Chaser Dice Game, a unique fusion of LEDs, simulated dice rolls, and digital
 creating an interactive and challenging experience for enthusiasts and casual users alike. In
 this essay, we will explore the intricate details of this exciting project, its components,
 functionality, and the underlying concepts that make it both entertaining and educational. 
-</details><br><br>
+</details><br>
 <h2><b>Working</b></h2>
 <details>
 <h1 align="center">FUNCTIONAL TABLE</h1> <br> <br>
@@ -146,7 +146,7 @@ challenge and strategy.</td>
 <br><br>
 <h2 align="center">Flowchart</h2><br>
 ![flowchart](https://github.com/rahul-mondal01/S1-T16-Dual-Dice/assets/148984556/040435ab-7d32-4827-9dca-c4500f64018f)
-</details><br><br>
+</details><br>
 <h2><b>Logisim Circuit Diagram</b></h2>
 <details>
   ![logisim_output](https://github.com/rahul-mondal01/S1-T16-Dual-Dice/assets/148984556/88cfd6d4-1ab2-4370-bb42-01ec979ac8fe)
@@ -276,7 +276,7 @@ endmodule
   ```
   
 </details>
-<br><br>
+<br>
 
 
 
