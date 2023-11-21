@@ -281,8 +281,8 @@ endmodule
   
 </details>
 <h2><b>References</b></h2>
-1. https://virtualdiceroll.com/2/en/two-dice
-2. https://projecthub.arduino.cc/
+1. https://virtualdiceroll.com/2/en/two-dice <br>
+2. https://projecthub.arduino.cc/ <br>
 3. https://www.electronicsforu.com/category/electronics-projects/hardware-diy
 
 
