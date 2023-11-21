@@ -152,7 +152,8 @@ challenge and strategy.</td>
 <h2><b>Logisim Circuit Diagram</b></h2>
 <details>
   
-  ![logisim_output](https://github.com/rahul-mondal01/S1-T16-Dual-Dice/assets/148984556/88cfd6d4-1ab2-4370-bb42-01ec979ac8fe)
+  ![logisim_output](https://github.com/rahul-mondal01/S1-T16-Dual-Dice/assets/148984556/552a04a3-4692-479b-b0bf-740bcf364595)
+
   
 </details>
 <h2><b>Verilog Code</b></h2>
