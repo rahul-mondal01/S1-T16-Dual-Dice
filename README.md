@@ -145,7 +145,8 @@ challenge and strategy.</td>
 <br><br>
 <h2 align="center">Flowchart</h2><br>
   
-![flowchart](https://github.com/rahul-mondal01/S1-T16-Dual-Dice/assets/148984556/040435ab-7d32-4827-9dca-c4500f64018f)
+![flowchart](https://github.com/rahul-mondal01/S1-T16-Dual-Dice/assets/148984556/fe3ed2c5-f592-43ea-9aee-21e38cf8e217)
+
 
 </details>
 <h2><b>Logisim Circuit Diagram</b></h2>
