@@ -144,11 +144,15 @@ challenge and strategy.</td>
 </table> 
 <br><br>
 <h2 align="center">Flowchart</h2><br>
+  
 ![flowchart](https://github.com/rahul-mondal01/S1-T16-Dual-Dice/assets/148984556/040435ab-7d32-4827-9dca-c4500f64018f)
+
 </details>
 <h2><b>Logisim Circuit Diagram</b></h2>
 <details>
+  
   ![logisim_output](https://github.com/rahul-mondal01/S1-T16-Dual-Dice/assets/148984556/88cfd6d4-1ab2-4370-bb42-01ec979ac8fe)
+  
 </details>
 <h2><b>Verilog Code</b></h2>
 <details>
