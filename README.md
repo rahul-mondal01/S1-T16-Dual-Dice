@@ -16,6 +16,15 @@ Vivek kumar<br>
 vivekkumar.221cs166@nitk.edu.in<br><br>
 </details> 
 <h2><b>Abstract</b></h2>
+<h1 align="center">ABSTRACT</h1><br><br>
+<b>PROBLEM STATEMENT</b> <br>
+This project aims to provide a fun experience to the users through a game specially
+designed to be engaging and entertaining without feel cheated. A combination of LED
+chaser which connected to random number generator that allow the system to
+randomly glow the led at specific position and dual dice, both of which are popular
+games allows high levels of engagement and keeps the users interested and satisfied
+with outcome. <br><br>
+ <h2><b>Working</b></h2>
 <details>
 <b>IDEA</b><br><br>
 The idea of this project is to provide the users with a time engaging, entertaining, and
@@ -35,14 +44,6 @@ Comparator <br>
 Counter(Random Number display) <br>
 2-Bits Adder <br>
 ICs - 555,4017 <br><br>
-<h1 align="center">ABSTRACT</h1><br><br>
-<b>PROBLEM STATEMENT</b> <br>
-This project aims to provide a fun experience to the users through a game specially
-designed to be engaging and entertaining without feel cheated. A combination of LED
-chaser which connected to random number generator that allow the system to
-randomly glow the led at specific position and dual dice, both of which are popular
-games allows high levels of engagement and keeps the users interested and satisfied
-with outcome. <br><br>
 <b>MOTIVATION</b> <br>
 Our goal in creating this project is to provide users participating in our project with a
 simple and smooth experience through digital integrated circuits. Digital IC has
@@ -64,7 +65,6 @@ LED Chaser Dice Game, a unique fusion of LEDs, simulated dice rolls, and digital
 creating an interactive and challenging experience for enthusiasts and casual users alike. In
 this essay, we will explore the intricate details of this exciting project, its components,
 functionality, and the underlying concepts that make it both entertaining and educational. 
-</details> <h2><b>Working</b></h2>
 <details>
 <h1 align="center">FUNCTIONAL TABLE</h1> <br> <br>
 <table>
