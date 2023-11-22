@@ -1,4 +1,4 @@
-<h1 align="center">S1-T16-Dual-Dice</h1><br>
+ <h1 align="center">S1-T16-Dual-Dice</h1><br>
 This project contains everything related to our project on the Dual Dice game<br><br>
 <h2><b>Team Details</b></h2>
 <details>
@@ -68,7 +68,6 @@ LED Chaser Dice Game, a unique fusion of LEDs, simulated dice rolls, and digital
 creating an interactive and challenging experience for enthusiasts and casual users alike. In
 this essay, we will explore the intricate details of this exciting project, its components,
 functionality, and the underlying concepts that make it both entertaining and educational. 
-<details>
 <h1 align="center">FUNCTIONAL TABLE</h1> <br> <br>
 <table>
   <tr>
