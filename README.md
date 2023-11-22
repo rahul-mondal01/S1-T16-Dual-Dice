@@ -15,8 +15,8 @@ Vivek kumar<br>
 221cs166<br>
 vivekkumar.221cs166@nitk.edu.in<br><br>
 </details> 
-<h2><b>Abstract</b></h2>
-<h1 align="center">ABSTRACT</h1><br><br>
+<h2><b>Abstract</b></h2><details>
+<h1 align="center">ABSTRACT</h1>
 <b>PROBLEM STATEMENT</b> <br>
 This project aims to provide a fun experience to the users through a game specially
 designed to be engaging and entertaining without feel cheated. A combination of LED
@@ -25,8 +25,7 @@ randomly glow the led at specific position and dual dice, both of which are popu
 games allows high levels of engagement and keeps the users interested and satisfied
 with outcome.This innovative project is focused on delivering an enriching and entertaining user experience through a carefully crafted game design that guarantees engagement and enjoyment, all while maintaining a sense of fairness. The core components of this experience include a LED chaser intricately connected to a random number generator. This integration allows the system to illuminate LEDs at specific positions randomly, injecting an element of unpredictability into the game. Complementing this feature is the incorporation of dual dice, a popular gaming concept that adds an extra layer of excitement.
 
-The LED chaser, driven by the random number generator, introduces an element of chance, ensuring that users experience a dynamic and unpredictable gameplay. Simultaneously, the familiarity of dual dice contributes to the game's accessibility and broad appeal. By combining these elements, the project aims to create a synergy that captivates users, keeping them engaged and satisfied with the outcomes. The careful balance of randomness and established gaming concepts ensures that participants enjoy a genuinely fun experience without feeling cheated. This holistic approach not only meets the project's goal of providing entertainment but also establishes a foundation for sustained user interest and enjoyment.
- <br><br>
+The LED chaser, driven by the random number generator, introduces an element of chance, ensuring that users experience a dynamic and unpredictable gameplay. Simultaneously, the familiarity of dual dice contributes to the game's accessibility and broad appeal. By combining these elements, the project aims to create a synergy that captivates users, keeping them engaged and satisfied with the outcomes. The careful balance of randomness and established gaming concepts ensures that participants enjoy a genuinely fun experience without feeling cheated. This holistic approach not only meets the project's goal of providing entertainment but also establishes a foundation for sustained user interest and enjoyment.</details>
  <h2><b>Working</b></h2>
 <details>
 <b>IDEA</b><br><br>
